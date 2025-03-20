@@ -1,0 +1,38 @@
+<!-- Adrián Risco Sánchez -->
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Jesuitas</title>
+		<meta charset="UTF-8"/>
+		<meta name="autor" content="Adrián Risco Sánchez"/>
+		<link rel="stylesheet" href="estiloformularios.css"/>
+	</head>
+	<body>
+		<form method="POST" action="jesuitas.php">
+			<fieldset>
+				<legend class="tituloslegends">Jesuitas</legend>
+				<p>
+					Nombre Jesuita:
+					<input type="text" name="nombreJesuita" maxlength="30" required>
+				</p>
+				<p>
+					Nombre Alumno:
+					<input type="text" name="nombreAlumno" maxlength="30" required>
+				</p>
+				<p>
+					Firma Español:</br>
+					<textarea name="firmaEsp" cols="25" rows="5" required></textarea>
+				</p>
+				<p>
+					Firma Inglés:</br>
+					<textarea name="firmaIng" cols="25" rows="5" required></textarea>
+				</p>
+				<p>
+					Código:
+					<input type="text" name="codigo" maxlength="5" required>
+				</p>
+				<input type="submit" value="Enviar">
+			</fieldset>
+		</form>
+	</body>
+</html>
