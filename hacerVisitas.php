@@ -24,6 +24,8 @@
 	$conexion->query($sql2);
 	if($conexion->affected_rows>0)
 		echo "<h2>Visita realizada</h2>";
+		echo '<h3><a href="visitas.php"> Volver a Hacer Visitas</a></h3>';
+		echo '<h3><a href="visitas.php"> Iniciar Sesión</a></h3>';
 	else{
 		echo "<h2>La visita no se ha realizado</h2>";
 		echo '<h3><a href="visitas.php"> Vuelve a intentarlo</a></h3>';
